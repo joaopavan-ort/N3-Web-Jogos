@@ -1,0 +1,127 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e2f1f3;
+    color: #060a13;
+}
+
+section {
+    background-color: #cbe0f6;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+/* 🌙 modo escuro */
+body.dark {
+    background-color: rgb(11, 13, 24);
+    color: #f1f5f9;
+}
+
+section.dark {
+    background-color: #1E3F61;
+    color: #f1f5f9;
+}
+
+/* Header */
+header {
+    background: linear-gradient(90deg, #6F9EC4, #92AABF, #6F9EC4);
+    text-align: center;
+    padding: 15px;
+    color: #060a13;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(90deg, #083747, #0a404c, #083747);
+    text-align: center;
+    padding: 1px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Menu */
+nav {
+    background: linear-gradient(90deg, #083747, #0a404c, #083747);
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+}
+
+button {
+    background: #124759;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #38bdf8; /* efeito ao passar o mouse */
+}
+
+/* Conteúdo */
+main {
+    padding: 15px;
+}
+
+img {
+    border-radius: 20px;
+    border-style: solid;
+    width: 50%;
+    transition: 0.5s;
+    background-color: #060a13;
+}
+
+img:hover {
+    transform: scale(1.025);
+}
+
+p {
+    padding-left: 30px;
+}
+
+h2 {
+    padding: 15px;
+}
+
+.divisoria {
+    background: linear-gradient(90deg, #21c7ff, #8be2ff, #21c7ff);
+    color: #21c7ff;
+    width: 211.3%;
+    margin-left: -220px;
+}
+
+/* lista */
+ol {
+    padding-left: 50px;
+}
+li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.link {
+    margin-left: 150px;
+}
+
+/* 📱 TABLET */
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+/* 💻 DESKTOP */
+@media (min-width: 1024px) {
+    main {
+        max-width: 900px;
+        margin: auto;
+    }
+}
