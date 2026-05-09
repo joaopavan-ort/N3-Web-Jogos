@@ -6,6 +6,10 @@ body {
     color: #060a13;
 }
 
+button {
+    background: #124759;
+}
+
 section {
     background-color: #cbe0f6;
     border-radius: 20px;
